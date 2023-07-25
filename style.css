@@ -2,31 +2,37 @@
     background-color: aquamarine;
     width: 100px;
     height: 100px;
+    transition: 3s;
 }
 #colorchange:hover{
-    transition: width 2s;
+    transition: width;
     background-color: red;
+    transition: 3s;
 }
 
 #heightchange{
     height: 50px;
     width: 50px;
     background-color: brown;
+    transition: 3s;
 }
 #heightchange:hover{
     height: 300px;
     width: 50px;
     background-color: brown;
+    transition: 3s;
 }
 
 #circlechange{
     height: 50px;
     width: 50px;
     background-color: darkgreen;
+    transition: 3s;
 }
 #circlechange:hover{
     width: 160px;
     height: 80px;
     border-radius: 50%;
     background-color: darkgreen;
+    transition: 3s;
 }
