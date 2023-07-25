@@ -3,6 +3,7 @@
     width: 100px;
     height: 100px;
     transition: 3s;
+    
 }
 #colorchange:hover{
     transition: width;
