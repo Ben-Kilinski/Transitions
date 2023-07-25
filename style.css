@@ -1,11 +1,20 @@
-div{
+#colorchange{
     background-color: aquamarine;
     width: 100px;
     height: 100px;
-    
-    
 }
-div:hover{
+#colorchange:hover{
     transition: width 2s;
     background-color: red;
+}
+
+#heightchange{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
+#heightchange:hover{
+    height: 300px;
+    width: 50px;
+    background-color: brown;
 }
